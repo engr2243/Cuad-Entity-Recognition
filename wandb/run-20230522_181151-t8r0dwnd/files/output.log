@@ -1,0 +1,30 @@
+
+You're using a DebertaV2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+env: WANDB_PROJECT='P2D-NER-2021'
+env: WANDB_LOG_MODEL=false
+WARNING:datasets.arrow_dataset:Loading cached split indices for dataset at /root/.cache/huggingface/datasets/json/default-702f038ab1acf893/0.0.0/e347ab1c932092252e717ff3f949105a4dd28b27e842dd53157d2f72e276c2e4/cache-ad7f61e4e51f8372.arrow and /root/.cache/huggingface/datasets/json/default-702f038ab1acf893/0.0.0/e347ab1c932092252e717ff3f949105a4dd28b27e842dd53157d2f72e276c2e4/cache-2b4d212ce9922787.arrow
+Some weights of the model checkpoint at nlpaueb/legal-bert-base-uncased were not used when initializing BertForTokenClassification: ['cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.decoder.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight']
+- This IS expected if you are initializing BertForTokenClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForTokenClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BertForTokenClassification were not initialized from the model checkpoint at nlpaueb/legal-bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/usr/local/lib/python3.10/dist-packages/transformers/optimization.py:407: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+The maximum learning rate is:  7.5e-06
+env: WANDB_PROJECT='P2D-NER-2021'
+env: WANDB_LOG_MODEL=false
+WARNING:datasets.arrow_dataset:Loading cached split indices for dataset at /root/.cache/huggingface/datasets/json/default-702f038ab1acf893/0.0.0/e347ab1c932092252e717ff3f949105a4dd28b27e842dd53157d2f72e276c2e4/cache-ad7f61e4e51f8372.arrow and /root/.cache/huggingface/datasets/json/default-702f038ab1acf893/0.0.0/e347ab1c932092252e717ff3f949105a4dd28b27e842dd53157d2f72e276c2e4/cache-2b4d212ce9922787.arrow
+env: WANDB_PROJECT='P2D-NER-2021'
+env: WANDB_LOG_MODEL=false
+WARNING:datasets.arrow_dataset:Loading cached split indices for dataset at /root/.cache/huggingface/datasets/json/default-702f038ab1acf893/0.0.0/e347ab1c932092252e717ff3f949105a4dd28b27e842dd53157d2f72e276c2e4/cache-ad7f61e4e51f8372.arrow and /root/.cache/huggingface/datasets/json/default-702f038ab1acf893/0.0.0/e347ab1c932092252e717ff3f949105a4dd28b27e842dd53157d2f72e276c2e4/cache-2b4d212ce9922787.arrow
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+WARNING:datasets.arrow_dataset:Loading cached processed dataset at /root/.cache/huggingface/datasets/json/default-702f038ab1acf893/0.0.0/e347ab1c932092252e717ff3f949105a4dd28b27e842dd53157d2f72e276c2e4/cache-9b9831fd40cbcc96.arrow
+Some weights of the model checkpoint at microsoft/deberta-v2-xlarge were not used when initializing DebertaV2ForTokenClassification: ['lm_predictions.lm_head.dense.weight', 'lm_predictions.lm_head.LayerNorm.bias', 'deberta.embeddings.position_embeddings.weight', 'lm_predictions.lm_head.dense.bias', 'lm_predictions.lm_head.bias', 'lm_predictions.lm_head.LayerNorm.weight']
+- This IS expected if you are initializing DebertaV2ForTokenClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DebertaV2ForTokenClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of DebertaV2ForTokenClassification were not initialized from the model checkpoint at microsoft/deberta-v2-xlarge and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+You're using a DebertaV2TokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+The maximum learning rate is:  7.5e-06
+STARTING TRAINING----

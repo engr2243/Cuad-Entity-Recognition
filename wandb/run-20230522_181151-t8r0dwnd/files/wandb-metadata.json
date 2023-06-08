@@ -1,0 +1,59 @@
+{
+    "os": "Linux-5.15.107+-x86_64-with-glibc2.31",
+    "python": "3.10.11",
+    "heartbeatAt": "2023-05-22T18:11:54.890118",
+    "startedAt": "2023-05-22T18:11:51.886070",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "FINE_TUNING AND INFERENCE.ipynb",
+    "colab": "https://colab.research.google.com/notebook#fileId=1txgHuwrl-deaCoMaj7lM5xsGPAMgMxme",
+    "host": "8d44c3b416fe",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2299.998,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2299.998,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 166.77415084838867,
+        "used": 42.755741119384766
+    },
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla T4",
+            "memory_total": 16106127360
+        }
+    ],
+    "memory": {
+        "total": 25.451374053955078
+    }
+}
